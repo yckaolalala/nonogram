@@ -76,11 +76,6 @@ void Solver(Nono data,int value,int index){
             if(Check_row_finish(rule,&data,i))
                 data.finish[i]=true;
 
-            if(0){
-                char t;
-                Show_map(&data);
-                scanf("%c",&t);
-            }
         }
     }
     
